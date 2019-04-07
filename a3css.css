@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+.gameButton {
+   border: 1px outset blue;
+   background-color: lightBlue;
+   height:18px;
+   width:20px;
+   font-size: 15.5px;
+}
+
+.flag {
+    background-color: crimson;
+}
+
+.show {
+    background-color: azure;
+    text-anchor: middle;
+
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.note {
+    font-size: .8em;
+}

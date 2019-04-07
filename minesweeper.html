@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Bombduster</title>
+        <link rel="stylesheet"  href= "a3css.css"> 
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="a3script.js"></script>
+    </head>
+    <body>
+        <div class="Minesweeper">
+            <h1>Minesweeper by Tin:</h1>
+            <div class="Rules/Inputs">
+                <label for="bombs">Create Minefield [x, y]: (Min: 8by8 - Max: 40by30)</label>
+                <input type="number" id="ex" name="ex"
+                min="8" max="40">
+                <input type="number" id="why" name="why"
+                min="8" max="30">
+                <label for="bombs">Number of bombs (Min: 1, Max: x*y - 1):</label>
+                <input type="number" id="bombs" name="bombs"
+                min="1" max="1199">
+                <label id="bombsLeft"></label>
+            </div>
+
+            <div class="Board" id="Board">                 
+            
+            </div>
+            <div class="GameOptionsStart">
+                
+            </div>
+            <div>
+                <h1>HIGHSCORE:</h1>
+                    <h3 class="name">Try to beat the best time</h3>
+                    <h3 class="time">best time: 1000000 seconds</h3>
+                    <h5>Refresh the page to maintain highscore integrity when changing to a new minefield or number of bombs :)</h5>
+            </div>
+        </div>
+    </body>
+</html>
